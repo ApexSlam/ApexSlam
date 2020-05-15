@@ -104,3 +104,18 @@ All Typescript source code should go inside of the `src` folder.
     - You would need to edit this file if you made a new sub router
 - `src/routers/*.ts`: A sub router file.
     - Refer to `src/routers/hello.ts` for a basic file structure
+
+### Getting Started
+
+1. Clone Repository
+2. `npm i`
+    - Install dependencies
+3. `npm run dev`
+    - Run nodemon, which will run our backend web server and will restart everytime you make a change
+4. Make a `.env`
+    - As of 9:17AM ET Fri May 15 2020, it's not necessary to make this file
+        - Eventually, if we end up being able to host the project, then we'll need to populate this file with stuff
+    - Populate with an option `PORT` env variable via: `PORT=3000`
+    - See `src/index.ts` to see how the `PORT` environment variable is being used
+4. Test hello routes on localhost:3000/hello
+5. You're ready to get started!
